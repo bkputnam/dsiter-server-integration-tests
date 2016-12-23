@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>Csv1</servlet-name>
+		<servlet-class>dsiter.servlet.Csv1Servlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Csv1</servlet-name>
+		<url-pattern>/csv1/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>
