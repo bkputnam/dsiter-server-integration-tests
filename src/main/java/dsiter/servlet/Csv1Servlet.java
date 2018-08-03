@@ -2,12 +2,10 @@ package dsiter.servlet;
 
 import dsiter.dataset.IDataset;
 import dsiter.dataset.csv.CsvDataset;
-import dsiter.reader.FileReaderFactory;
 import dsiter.reader.IReaderFactory;
 import dsiter.row.ColumnDescriptor;
 import dsiter.row.ColumnType;
 import dsiter.row.RowCopier;
-import dsiter.row.RowShape;
 import dsiter.server.DatasetServlet;
 import org.apache.commons.csv.CSVFormat;
 
